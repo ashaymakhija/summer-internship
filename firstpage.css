@@ -1,0 +1,275 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+section
+{
+    background-image: url("evening1.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+.list
+{
+    display: flex;
+    list-style-type: none;
+    margin-right: 150px;
+}
+li
+{
+    padding: 20px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+a:hover
+{
+    border-bottom: 4px yellow solid;
+}
+.logo
+{
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 40px;
+    color: white;
+}
+.animal
+{
+    text-align: center;
+    margin-top: 350px;
+    font-size: larger;
+    color: white;
+}
+.nimal
+{
+    color: yellow;
+}
+.button 
+{
+    display: inline-block;
+    color: black;
+    background-color: #ffffff;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+}
+.button a:hover
+{
+    background-color: lightcoral;
+    border: none;
+}
+.heading
+{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Yellowtail', cursive;
+}
+.line
+{
+    border-bottom: 3px yellow solid;
+    margin-left: 700px;
+    margin-right: 700px;
+}
+ul
+{
+    display: flex;
+}
+.fas
+{
+    color: yellow;
+}
+.checklist 
+{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.majnu
+{
+    
+    background-color: grey;
+    box-sizing: border-box;
+    width: 25%;
+    height: 250px;
+    padding-top: 50px;
+    font-family: 'Yellowtail', cursive;
+}
+.sanju
+{
+    background-color: aliceblue;
+    box-sizing: border-box;
+    width: 25%;
+    height: 250px;
+    font-family: 'Yellowtail', cursive;
+    padding-top: 50px;
+}
+.pangu
+{
+    background-color: aliceblue;
+    box-sizing: border-box;
+    width: 25%;
+    height: 250px;
+    font-family: 'Yellowtail', cursive;
+    padding-top: 50px;
+}
+.ashay 
+{
+    font-size: 200%;
+}
+.lint
+{
+    border-bottom: 3px yellow solid;
+    margin-right: 70%;
+    margin-top: 5px;
+}
+.kist a
+{
+    color: white;
+}
+.kist
+{
+ display: block; 
+ list-style-type: none;  
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+}
+.section
+{
+background-color: black;
+}
+.moon
+{
+    color: white;
+    display: block; 
+    margin-top: 50px;
+    margin-left: 190px;
+    font-family: 'Yellowtail', cursive;
+}
+.sun
+{
+    color: white;
+    margin-top: 50px;
+    font-family: 'Yellowtail', cursive;
+}
+.linp
+{
+    border-bottom: 3px yellow solid;
+    margin-right: 50%;
+    margin-top: 5px;
+}
+.make
+{
+    color: white;
+}
+.linm
+{
+    border-bottom: 3px yellow solid;
+    margin-right: 60%;
+    margin-top: 5px;
+}
+.fa-solid
+{
+    color: white;
+}
+.bold
+{
+    color: white;;
+}
+.emails
+{
+    color: white;
+    font-size: larger;
+}
+.majnu .fa-solid
+{
+    color: black;
+}
+.sanju .fa-solid
+{
+    color: black;
+}
+.pangu .fa-solid
+{
+    color: black;
+}
+.last
+{
+    margin-top: 50px;
+    margin-right: 190px;
+    font-family: 'Yellowtail', cursive;
+}
+.copy
+{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+.kist li
+{
+    width: 25px;
+}
+.middle
+{
+    text-align: center;
+    font-family: 'Yellowtail', cursive;
+}
+.middle .lint
+{
+    margin-left: 700px;
+    margin-right: 700px;
+}
+
+#home-c .process {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1.5rem;
+    text-align: center;
+  }
+  #home-c .process-step {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 28px;
+    background: #ffbc00;
+    color: #fff;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    padding: 1rem;
+    transition: all 1s;
+  }
+  #home-c .process-icon {
+    border-radius: 50%;
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    position: relative;
+    transition: all 1s;
+  }
+  #home-c .process-icon:hover {
+    background: #ffbc00;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+  }
+  #home-c .process-icon:hover .process.step {
+    background: #333;
+    color: #fff;
+  }

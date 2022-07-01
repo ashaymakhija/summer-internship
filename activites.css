@@ -1,0 +1,156 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+section
+{
+    background-image: url("evening1.jpg");
+    height: 15vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+.list
+{
+    padding-top: 25px;
+    list-style-type: none;
+    display: flex;
+    margin-right: 120px;
+}
+.list li
+{
+    padding: 20px;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    border-bottom: 3px yellow solid;
+}
+.logo
+{
+    margin-top: 35px;
+    margin-left: 100px;
+    font-size: 40px;
+    color: white;
+    font-size: 40px;
+}
+.line
+{
+    border-bottom: 4px yellow solid;
+}
+
+.newpara
+{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Stick No Bills', sans-serif;
+}
+.line1
+{
+    border-bottom: 4px yellow solid;
+    margin-left: 720px;
+    margin-right: 720px;
+}
+.newpara p
+{
+    font-size: 25px;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between;
+}
+.section
+{
+background-color: black;
+}
+.moon
+{
+    color: white;
+    display: block; 
+    margin-top: 50px;
+    margin-left: 190px;
+    font-family: 'Yellowtail', cursive;
+}
+.sun
+{
+    color: white;
+    margin-top: 50px;
+    font-family: 'Yellowtail', cursive;
+}
+.linp
+{
+    border-bottom: 3px yellow solid;
+    margin-right: 50%;
+    margin-top: 5px;
+}
+.make
+{
+    color: white;
+}
+.linm
+{
+    border-bottom: 3px yellow solid;
+    margin-right: 60%;
+    margin-top: 5px;
+}
+.fa-solid
+{
+    color: white;
+}
+.bold
+{
+    color: white;;
+}
+.emails
+{
+    color: white;
+    font-size: larger;
+}
+.last
+{
+    margin-top: 50px;
+    margin-right: 190px;
+    font-family: 'Yellowtail', cursive;
+}
+.copy
+{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+}
+.kist li
+{
+    width: 25px;
+    padding: 5px;
+}
+.kist a
+{
+    color: white;
+}
+.kist
+{
+ display: block; 
+ list-style-type: none; 
+}
+.lint
+{
+    border-bottom: 3px yellow solid;
+    margin-right: 70%;
+    margin-top: 5px;
+}
+ul
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
